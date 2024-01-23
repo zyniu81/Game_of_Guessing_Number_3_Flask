@@ -33,6 +33,7 @@ app = Flask(__name__)
 
 app.config['list_computer'] = []
 
+
 @app.route("/", methods=["GET", "POST"])
 def game(n=10):
     """
